@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="52" id="KGk-i7-Jjw" customClass="LDIamCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                <autoresizingMask key="autoresizingMask"/>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="491.304347826087" y="275.22321428571428"/>
+        </tableViewCell>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="85" id="0Mr-gO-5d2" customClass="LDIamCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0Mr-gO-5d2" id="C8f-70-xsL">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+                <autoresizingMask key="autoresizingMask"/>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="491.304347826087" y="349.55357142857139"/>
+        </tableViewCell>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="132" id="pWY-WD-fEX" customClass="LDIamCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="127"/>
+            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="pWY-WD-fEX" id="imf-qY-gOC">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="127"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9DD-oA-Ubj">
+                        <rect key="frame" x="30" y="8" width="260" height="110"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="done"/>
+                        <connections>
+                            <outlet property="delegate" destination="pWY-WD-fEX" id="FcB-X9-Eaf"/>
+                        </connections>
+                    </textView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请勿使用露骨的项目词汇、大尺度文字描述、有偿收费描述、多人夫妻描述等！九年圣魔来之不易，需要同好们的共同呵护~" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tj1-zn-JOZ">
+                        <rect key="frame" x="29" y="12" width="262" height="57"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="57" id="fFW-mi-Pc6"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.71715900460000004" green="0.71688592330000001" blue="0.71821571049999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="9DD-oA-Ubj" secondAttribute="bottom" constant="9" id="DJy-4d-Tmd"/>
+                    <constraint firstItem="9DD-oA-Ubj" firstAttribute="leading" secondItem="imf-qY-gOC" secondAttribute="leading" constant="30" id="GAz-Da-RaF"/>
+                    <constraint firstAttribute="trailing" secondItem="9DD-oA-Ubj" secondAttribute="trailing" constant="30" id="HFZ-fS-JZA"/>
+                    <constraint firstItem="9DD-oA-Ubj" firstAttribute="top" secondItem="imf-qY-gOC" secondAttribute="top" constant="8" id="dZM-y3-47j"/>
+                    <constraint firstItem="Tj1-zn-JOZ" firstAttribute="top" secondItem="imf-qY-gOC" secondAttribute="topMargin" constant="1" id="eZX-rh-126"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Tj1-zn-JOZ" secondAttribute="trailing" constant="14" id="ha3-2R-ASy"/>
+                    <constraint firstItem="Tj1-zn-JOZ" firstAttribute="leading" secondItem="imf-qY-gOC" secondAttribute="leadingMargin" constant="14" id="vY7-wj-9Ia"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="introduceLabel" destination="Tj1-zn-JOZ" id="RUC-5E-hg4"/>
+                <outlet property="textView" destination="9DD-oA-Ubj" id="5bf-MB-zYm"/>
+            </connections>
+            <point key="canvasLocation" x="491.19999999999999" y="461.01949025487261"/>
+        </tableViewCell>
+    </objects>
+</document>

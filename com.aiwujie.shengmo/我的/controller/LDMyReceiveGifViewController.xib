@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LDMyReceiveGifViewController">
+            <connections>
+                <outlet property="exchangeButton" destination="b1w-jh-yEC" id="gmI-ts-jIy"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b1w-jh-yEC">
+                    <rect key="frame" x="10" y="615" width="355" height="42"/>
+                    <color key="backgroundColor" red="0.71606141329999995" green="0.22969889639999999" blue="0.79426807170000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="42" id="6T2-ch-f5h"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="兑换邮票">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="exchangeButtonClick:" destination="-1" eventType="touchUpInside" id="VOs-T5-Iol"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.96097311929999996" green="0.96218417550000002" blue="0.9606050532" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="b1w-jh-yEC" secondAttribute="bottom" constant="10" id="0u7-o0-H5A"/>
+                <constraint firstItem="b1w-jh-yEC" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="4VG-tz-OX7"/>
+                <constraint firstAttribute="trailing" secondItem="b1w-jh-yEC" secondAttribute="trailing" constant="10" id="O92-Xb-qYT"/>
+            </constraints>
+            <point key="canvasLocation" x="33.5" y="80.5"/>
+        </view>
+    </objects>
+</document>

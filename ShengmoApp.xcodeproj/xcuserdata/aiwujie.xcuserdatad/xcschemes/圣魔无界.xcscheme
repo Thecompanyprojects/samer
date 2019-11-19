@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0920"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "00E85EA31E02BA6F004AB146"
+               BuildableName = "&#x5723;&#x9b54;&#x65e0;&#x754c;.app"
+               BlueprintName = "&#x5723;&#x9b54;&#x65e0;&#x754c;"
+               ReferencedContainer = "container:&#x5723;&#x9b54;&#x65e0;&#x754c;.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "00E85EBC1E02BA70004AB146"
+               BuildableName = "&#x5723;&#x9b54;&#x65e0;&#x754c;Tests.xctest"
+               BlueprintName = "&#x5723;&#x9b54;&#x65e0;&#x754c;Tests"
+               ReferencedContainer = "container:&#x5723;&#x9b54;&#x65e0;&#x754c;.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "00E85EC71E02BA70004AB146"
+               BuildableName = "&#x5723;&#x9b54;&#x65e0;&#x754c;UITests.xctest"
+               BlueprintName = "&#x5723;&#x9b54;&#x65e0;&#x754c;UITests"
+               ReferencedContainer = "container:&#x5723;&#x9b54;&#x65e0;&#x754c;.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "00E85EBC1E02BA70004AB146"
+               BuildableName = "&#x5723;&#x9b54;&#x65e0;&#x754c;Tests.xctest"
+               BlueprintName = "&#x5723;&#x9b54;&#x65e0;&#x754c;Tests"
+               ReferencedContainer = "container:&#x5723;&#x9b54;&#x65e0;&#x754c;.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "00E85EC71E02BA70004AB146"
+               BuildableName = "&#x5723;&#x9b54;&#x65e0;&#x754c;UITests.xctest"
+               BlueprintName = "&#x5723;&#x9b54;&#x65e0;&#x754c;UITests"
+               ReferencedContainer = "container:&#x5723;&#x9b54;&#x65e0;&#x754c;.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "00E85EA31E02BA6F004AB146"
+            BuildableName = "&#x5723;&#x9b54;&#x65e0;&#x754c;.app"
+            BlueprintName = "&#x5723;&#x9b54;&#x65e0;&#x754c;"
+            ReferencedContainer = "container:&#x5723;&#x9b54;&#x65e0;&#x754c;.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "00E85EA31E02BA6F004AB146"
+            BuildableName = "&#x5723;&#x9b54;&#x65e0;&#x754c;.app"
+            BlueprintName = "&#x5723;&#x9b54;&#x65e0;&#x754c;"
+            ReferencedContainer = "container:&#x5723;&#x9b54;&#x65e0;&#x754c;.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "00E85EA31E02BA6F004AB146"
+            BuildableName = "&#x5723;&#x9b54;&#x65e0;&#x754c;.app"
+            BlueprintName = "&#x5723;&#x9b54;&#x65e0;&#x754c;"
+            ReferencedContainer = "container:&#x5723;&#x9b54;&#x65e0;&#x754c;.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "ad hoc distribution"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

@@ -1,0 +1,17 @@
+//
+//  announcementCell.h
+//  ShengmoApp
+//
+//  Created by 王俊钢 on 2019/7/18.
+//  Copyright © 2019 a. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import "announcementModel.h"
+NS_ASSUME_NONNULL_BEGIN
+
+@interface announcementCell : UITableViewCell
+@property (nonatomic,strong) announcementModel *model;
+@end
+
+NS_ASSUME_NONNULL_END

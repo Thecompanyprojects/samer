@@ -1,0 +1,144 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - AMap2DMap-NO-IDFA (5.6.1):
+    - AMapFoundation-NO-IDFA (~> 1.4)
+  - AMapFoundation-NO-IDFA (1.5.7)
+  - AMapLocation-NO-IDFA (2.6.2):
+    - AMapFoundation-NO-IDFA (~> 1.4)
+  - AMapSearch-NO-IDFA (6.9.0):
+    - AMapFoundation-NO-IDFA (~> 1.4)
+  - Bugly (2.5.0)
+  - DZNEmptyDataSet (1.8.1)
+  - FDFullscreenPopGesture (1.1)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - IQKeyboardManager (6.4.0)
+  - JXBWebKit (1.0.6)
+  - Masonry (1.1.0)
+  - MJRefresh (3.2.0)
+  - MLLabel (1.10.5)
+  - RongCloudIM/IMKit (2.9.24):
+    - RongCloudIM/IMLib
+  - RongCloudIM/IMLib (2.9.24)
+  - RongCloudIM/RongSticker (2.9.24):
+    - RongCloudIM/IMKit
+  - RongCloudRTC/RongCallKit (2.9.24):
+    - RongCloudIM/IMKit (~> 2.9.24)
+    - RongCloudIM/IMLib (~> 2.9.24)
+    - RongCloudRTC/RongCallLib
+  - RongCloudRTC/RongCallLib (2.9.24):
+    - RongCloudIM/IMLib (~> 2.9.24)
+  - SDAutoLayout (2.2.1)
+  - SDWebImage (3.8.3):
+    - SDWebImage/Core (= 3.8.3)
+  - SDWebImage/Core (3.8.3)
+  - SPAlertController (3.1.0)
+  - TTPopupView (0.0.1)
+  - UMengAnalytics-NO-IDFA (4.2.5)
+  - WechatOpenSDK (1.8.4)
+  - Weibo_SDK (3.2.3)
+  - YYModel (1.0.4)
+  - ZJPickerView (1.0.7)
+
+DEPENDENCIES:
+  - AFNetworking
+  - AMap2DMap-NO-IDFA
+  - AMapLocation-NO-IDFA
+  - AMapSearch-NO-IDFA
+  - Bugly
+  - DZNEmptyDataSet
+  - FDFullscreenPopGesture
+  - FMDB
+  - IQKeyboardManager
+  - JXBWebKit (~> 1.0.2)
+  - Masonry (~> 1.1.0)
+  - MJRefresh
+  - MLLabel
+  - RongCloudIM/IMKit (= 2.9.24)
+  - RongCloudIM/IMLib (= 2.9.24)
+  - RongCloudIM/RongSticker (= 2.9.24)
+  - RongCloudRTC/RongCallKit (= 2.9.24)
+  - RongCloudRTC/RongCallLib (= 2.9.24)
+  - SDAutoLayout
+  - SDWebImage (~> 3.8.2)
+  - SPAlertController
+  - TTPopupView
+  - UMengAnalytics-NO-IDFA
+  - WechatOpenSDK
+  - Weibo_SDK
+  - YYModel
+  - ZJPickerView
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - AMap2DMap-NO-IDFA
+    - AMapFoundation-NO-IDFA
+    - AMapLocation-NO-IDFA
+    - AMapSearch-NO-IDFA
+    - Bugly
+    - DZNEmptyDataSet
+    - FDFullscreenPopGesture
+    - FMDB
+    - IQKeyboardManager
+    - JXBWebKit
+    - Masonry
+    - MJRefresh
+    - MLLabel
+    - RongCloudIM
+    - RongCloudRTC
+    - SDAutoLayout
+    - SDWebImage
+    - SPAlertController
+    - TTPopupView
+    - UMengAnalytics-NO-IDFA
+    - WechatOpenSDK
+    - Weibo_SDK
+    - YYModel
+    - ZJPickerView
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  AMap2DMap-NO-IDFA: ccecb3e2a044c17e6badb9b91c950e709368be20
+  AMapFoundation-NO-IDFA: 9088085827c831811bb0fd3afd96b99963a7cf71
+  AMapLocation-NO-IDFA: d7792c8c516f415e186f1bc25946f1a58ca6a583
+  AMapSearch-NO-IDFA: 264999e6c149383a8f164c2fe49b51513e93d674
+  Bugly: 3ca9f255c01025582df26f9222893b383c7e4b4e
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  IQKeyboardManager: fcef267266379c003181fc3592f6bdb8bf4db839
+  JXBWebKit: fb331357e36562fcd7e2c101dfdfc3d9865f6908
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
+  MLLabel: d76124055a2205e7f76878e62cd06ba925ba0c97
+  RongCloudIM: dfacebd46a313242c4c15b05ed4127c10d6d8a20
+  RongCloudRTC: 3d30f41bbebced154244714f169bcf4fb7b68f26
+  SDAutoLayout: 8bf6b3bbc8b01f775d4defbb4fda2ace805461be
+  SDWebImage: a72e880a8fe0f7fc31efe15aaed443c074d2a80c
+  SPAlertController: f27a8827f260fe2a61c3da03bf3f1e8acdc1408e
+  TTPopupView: 5eeffae23aa6e2660bbf6b47f8eb659ab1a19f01
+  UMengAnalytics-NO-IDFA: 16666e32edce5be44ae5b14aaaa7f3582e09d6ab
+  WechatOpenSDK: 9b721089507c895d05f997408c30bb6e6f5f9b60
+  Weibo_SDK: 652ca78c2f7147a5de5e75e7cbea89838a81772a
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+  ZJPickerView: 67f190e735441c7e954b3da8e655b2274e198089
+
+PODFILE CHECKSUM: 27912e8d8227a258329519258cd3007a665f9d4c
+
+COCOAPODS: 1.7.5

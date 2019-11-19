@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LDCertificateViewController">
+            <connections>
+                <outlet property="noPublicButton" destination="g9F-vX-gcZ" id="aY4-KK-NLB"/>
+                <outlet property="submitButton" destination="HTw-L2-5Ok" id="vyA-lo-aAR"/>
+                <outlet property="uploadImageView" destination="Ilz-22-pZU" id="rXB-Jc-6HN"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="vipLookButton" destination="V85-W4-TF0" id="RD7-Bw-Hcb"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="照片认证事例" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="veV-rx-5fY">
+                    <rect key="frame" x="35" y="18" width="129.5" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="hzI-Ph-Dbv"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我的认证照片" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ozZ-fh-NzT">
+                    <rect key="frame" x="210.5" y="18" width="129.5" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="Qw7-pI-eWC"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="照片认证实例" translatesAutoresizingMaskIntoConstraints="NO" id="ky1-zL-bEP">
+                    <rect key="frame" x="30.5" y="51" width="140" height="140"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="140" id="8Ng-MB-eM7"/>
+                        <constraint firstAttribute="height" constant="140" id="M8l-1r-RoW"/>
+                    </constraints>
+                </imageView>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="上传照片" translatesAutoresizingMaskIntoConstraints="NO" id="Ilz-22-pZU">
+                    <rect key="frame" x="207" y="51" width="140" height="140"/>
+                    <gestureRecognizers/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="140" id="v41-c1-eIV"/>
+                        <constraint firstAttribute="height" constant="140" id="wQs-bu-sVa"/>
+                    </constraints>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="HIH-7c-HDt" appends="YES" id="D0b-te-ZWz"/>
+                    </connections>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="*请自拍本人正面照片,照片只用于认证审核" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7S3-GS-fiA">
+                    <rect key="frame" x="0.0" y="206" width="375" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="sM3-xd-6Bd"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.71407199850000003" green="0.71394139440000004" blue="0.71261160710000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="*请使用前置摄像头进行自拍,后置摄像头拍摄将不予通过" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aJk-ZO-CFJ">
+                    <rect key="frame" x="0.0" y="234" width="375" height="14.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.71407199850000003" green="0.71394139440000004" blue="0.71261160710000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HTw-L2-5Ok">
+                    <rect key="frame" x="24" y="454.5" width="328" height="42"/>
+                    <color key="backgroundColor" red="0.71683843089999999" green="0.22636065729999999" blue="0.79763487840000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="42" id="6SD-Q7-Jgc"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="提交审核">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="submitButtonClick:" destination="-1" eventType="touchUpInside" id="9HR-Eg-0y2"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="认证照查看权限" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ewG-iN-zKH">
+                    <rect key="frame" x="26" y="298.5" width="324" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="Ob5-fJ-4Ls"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cae-2t-Rcp">
+                    <rect key="frame" x="16" y="332.5" width="343" height="44"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g9F-vX-gcZ">
+                            <rect key="frame" x="0.0" y="0.0" width="171.5" height="44"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <inset key="titleEdgeInsets" minX="25" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <inset key="imageEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="不公开认证照" image="照片认证实圈">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="noPublicButtonClick:" destination="-1" eventType="touchUpInside" id="fAS-b0-Fqo"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V85-W4-TF0">
+                            <rect key="frame" x="171.5" y="0.0" width="171.5" height="44"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <inset key="titleEdgeInsets" minX="25" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <inset key="imageEdgeInsets" minX="15" minY="0.0" maxX="20" maxY="0.0"/>
+                            <state key="normal" title="认证照VIP可见" image="照片认证空圈">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="vipLookButtonClick:" destination="-1" eventType="touchUpInside" id="13X-um-HEL"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.96097311929999996" green="0.96218417550000002" blue="0.9606050532" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="g9F-vX-gcZ" firstAttribute="leading" secondItem="cae-2t-Rcp" secondAttribute="leading" id="1fj-2j-N2j"/>
+                        <constraint firstItem="V85-W4-TF0" firstAttribute="leading" secondItem="g9F-vX-gcZ" secondAttribute="trailing" id="8DG-6h-qNp"/>
+                        <constraint firstAttribute="height" constant="44" id="Cic-Hw-V1c"/>
+                        <constraint firstItem="g9F-vX-gcZ" firstAttribute="trailing" secondItem="cae-2t-Rcp" secondAttribute="centerX" id="Hze-Pu-IYw"/>
+                        <constraint firstAttribute="bottom" secondItem="g9F-vX-gcZ" secondAttribute="bottom" id="JPy-7o-Hwg"/>
+                        <constraint firstAttribute="trailing" secondItem="V85-W4-TF0" secondAttribute="trailing" id="Nff-cu-MOR"/>
+                        <constraint firstItem="V85-W4-TF0" firstAttribute="top" secondItem="cae-2t-Rcp" secondAttribute="top" id="Pbc-f8-M5y"/>
+                        <constraint firstAttribute="bottom" secondItem="V85-W4-TF0" secondAttribute="bottom" id="g5Q-ZP-6pD"/>
+                        <constraint firstItem="g9F-vX-gcZ" firstAttribute="top" secondItem="cae-2t-Rcp" secondAttribute="top" id="svv-YJ-cUj"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="*查看权限认证通过后可更改" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nsk-Dw-Cut">
+                    <rect key="frame" x="16" y="385.5" width="343" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="aUD-5Q-bFu"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.71407199850000003" green="0.71394139440000004" blue="0.71261160710000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ewG-iN-zKH" firstAttribute="top" secondItem="aJk-ZO-CFJ" secondAttribute="bottom" constant="50" id="CdP-77-3Mr"/>
+                <constraint firstAttribute="trailing" secondItem="Nsk-Dw-Cut" secondAttribute="trailing" constant="16" id="Eeq-Pa-kvY"/>
+                <constraint firstItem="ky1-zL-bEP" firstAttribute="top" secondItem="veV-rx-5fY" secondAttribute="bottom" constant="12" id="EgO-kx-Puo"/>
+                <constraint firstItem="Ilz-22-pZU" firstAttribute="width" secondItem="ky1-zL-bEP" secondAttribute="width" id="FY1-Ka-pAN"/>
+                <constraint firstItem="HTw-L2-5Ok" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="24" id="FZp-DP-CBk"/>
+                <constraint firstItem="ozZ-fh-NzT" firstAttribute="width" secondItem="veV-rx-5fY" secondAttribute="width" id="Ikr-cK-5eS"/>
+                <constraint firstItem="7S3-GS-fiA" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="KYX-u5-UKh"/>
+                <constraint firstItem="cae-2t-Rcp" firstAttribute="top" secondItem="ewG-iN-zKH" secondAttribute="bottom" constant="13" id="MSP-3H-RQI"/>
+                <constraint firstAttribute="trailing" secondItem="7S3-GS-fiA" secondAttribute="trailing" id="Mk6-Hm-B71"/>
+                <constraint firstItem="ky1-zL-bEP" firstAttribute="centerX" secondItem="veV-rx-5fY" secondAttribute="centerX" id="Pkq-4L-m04"/>
+                <constraint firstAttribute="trailing" secondItem="ozZ-fh-NzT" secondAttribute="trailing" constant="35" id="QBE-eb-PyJ"/>
+                <constraint firstItem="aJk-ZO-CFJ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Qzr-Ys-cMb"/>
+                <constraint firstItem="Nsk-Dw-Cut" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="Swr-pj-yJL"/>
+                <constraint firstItem="ozZ-fh-NzT" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="18" id="T7h-Dl-qhm"/>
+                <constraint firstItem="cae-2t-Rcp" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="XyW-Y0-sHf"/>
+                <constraint firstItem="HTw-L2-5Ok" firstAttribute="top" secondItem="Nsk-Dw-Cut" secondAttribute="bottom" constant="48" id="aKl-TQ-sI9"/>
+                <constraint firstItem="veV-rx-5fY" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="35" id="dVC-ly-Kkf"/>
+                <constraint firstItem="ewG-iN-zKH" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="26" id="i6H-8I-Lp3"/>
+                <constraint firstItem="7S3-GS-fiA" firstAttribute="top" secondItem="Ilz-22-pZU" secondAttribute="bottom" constant="15" id="iXa-Uo-Iua"/>
+                <constraint firstItem="ky1-zL-bEP" firstAttribute="top" secondItem="Ilz-22-pZU" secondAttribute="top" id="iog-bB-MHQ"/>
+                <constraint firstItem="ozZ-fh-NzT" firstAttribute="leading" secondItem="veV-rx-5fY" secondAttribute="trailing" constant="46" id="lnW-8R-bRg"/>
+                <constraint firstItem="aJk-ZO-CFJ" firstAttribute="top" secondItem="7S3-GS-fiA" secondAttribute="bottom" constant="7" id="m3N-MA-5go"/>
+                <constraint firstItem="Ilz-22-pZU" firstAttribute="centerX" secondItem="ozZ-fh-NzT" secondAttribute="centerX" constant="1" id="nBK-jN-rXb"/>
+                <constraint firstAttribute="trailing" secondItem="cae-2t-Rcp" secondAttribute="trailing" constant="16" id="sE1-On-cRN"/>
+                <constraint firstAttribute="trailing" secondItem="ewG-iN-zKH" secondAttribute="trailing" constant="25" id="saU-qs-o0M"/>
+                <constraint firstAttribute="trailing" secondItem="HTw-L2-5Ok" secondAttribute="trailing" constant="23" id="vah-Hi-jeN"/>
+                <constraint firstItem="veV-rx-5fY" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="18" id="vhk-4e-fRF"/>
+                <constraint firstItem="Ilz-22-pZU" firstAttribute="top" secondItem="ozZ-fh-NzT" secondAttribute="bottom" constant="12" id="xCy-98-gxa"/>
+                <constraint firstItem="ky1-zL-bEP" firstAttribute="bottom" secondItem="Ilz-22-pZU" secondAttribute="bottom" id="xeD-Eg-Ecp"/>
+                <constraint firstItem="Nsk-Dw-Cut" firstAttribute="top" secondItem="cae-2t-Rcp" secondAttribute="bottom" constant="9" id="z7j-a6-haA"/>
+                <constraint firstAttribute="trailing" secondItem="aJk-ZO-CFJ" secondAttribute="trailing" id="zeb-Hp-EKm"/>
+            </constraints>
+            <point key="canvasLocation" x="240" y="300"/>
+        </view>
+        <tapGestureRecognizer id="HIH-7c-HDt">
+            <connections>
+                <action selector="tapPic:" destination="-1" id="Dui-j4-hV3"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="上传照片" width="162" height="150"/>
+        <image name="照片认证实例" width="243" height="244"/>
+        <image name="照片认证实圈" width="19" height="19"/>
+        <image name="照片认证空圈" width="19" height="19"/>
+    </resources>
+</document>
